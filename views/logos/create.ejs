@@ -1,0 +1,25 @@
+<div class="action">
+  <h1><%= title  %></h1>
+
+  <form action="/admin/<%= activeRoute %>/add" method="post" enctype="multipart/form-data">
+    <label for="image">Image <span>*</span></label>
+    <input
+      type="file"
+      accept="image/*"
+      name="image"
+      id="image"
+      placeholder="Enter image URL"
+      required
+      enctype="multipart/form-data"
+    />
+    <input
+      type="image"
+      id="preview"
+      src=""
+      alt="image preview"
+      class="image-preview"
+      
+    />
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>

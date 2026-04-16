@@ -1,0 +1,25 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form
+    action="/admin/<%= activeRoute %>/edit/<%= data.id %>"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <label for="image">Image<span>*</span></label>
+    <input type="hidden" name="oldImage" value="<%= data.image %>" />
+
+    <div class="image-box">
+      <img
+        src="<%= data.image %>"
+        id="preview"
+        class="image-preview active"
+        alt="Current image"
+      />
+
+      <input type="file" accept="image/*" name="image" id="image" />
+    </div>
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>

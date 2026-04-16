@@ -1,0 +1,8 @@
+model HomePageServicesHeadings {
+  id     String @id @default(uuid())
+  lang   String
+  badge  String
+  title  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

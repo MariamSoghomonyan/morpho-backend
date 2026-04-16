@@ -1,0 +1,10 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/add" method="post">
+    <label>Text<span>*</span></label>
+    <input type="text" name="text" required />
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>

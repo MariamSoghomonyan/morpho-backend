@@ -1,0 +1,45 @@
+  <div class="action">
+    <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+    <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+
+      <label>Language</label>
+      <input type="text" name="lang" value="<%= data.lang %>" />
+
+      <label>Badge</label>
+      <input type="text" name="badge" value="<%= data.badge %>" />
+
+      <label>Title</label>
+      <input type="text" name="title" value="<%= data.title %>" />
+
+      <label>Button</label>
+      <input type="text" name="about_btn" value="<%= data.about_btn %>" />
+
+      <h2>ITEMS</h2>
+
+      <div id="submenu-container">
+        <% data.items.forEach(item => { %>
+          <div class="submenu-row">
+
+            <div class="submenu-fields">
+              <input type="text" name="items[]" value="<%= item.title %>" />
+            </div>
+
+            <div class="submenu-actions">
+              <button type="button" class="remove-btn">✖</button>
+            </div>
+
+          </div>
+        <% }) %>
+      </div>
+
+      <button type="button" id="add-submenu" class="submit submenu">
+        Add item
+      </button>
+
+      <button type="submit" class="submit">Update</button>
+
+    </form>
+  </div>
+
+  <script src="/js/aboutItems.js"></script>

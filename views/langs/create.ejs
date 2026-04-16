@@ -1,0 +1,19 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form
+    action="/admin/<%= activeRoute %>/add"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <label for="code">Code <span>*</span></label>
+    <input type="text" name="code" id="code" required />
+
+    <label for="flag">Flag <span>*</span></label>
+    <input type="file" accept="image/*" name="flag" id="flag" required />
+
+    <input type="image" id="preview" class="image-preview" />
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>

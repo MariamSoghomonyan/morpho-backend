@@ -1,0 +1,72 @@
+<% if (user) { %>
+    <aside>
+        <div class="sidebar">
+
+            <a href="/admin" class="<%= activeRoute === 'dashboard' ? 'active' : '' %>">Dashboard</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">Header</a>
+
+            <a href="/admin/logo" class="<%= activeRoute === 'logo' ? 'active' : '' %>">Logo</a>
+            <a href="/admin/navbar" class="<%= activeRoute === 'navbar' ? 'active' : '' %>">Navbar </a>
+            <a href="/admin/lang" class="<%= activeRoute === 'lang' ? 'active' : '' %>">Language</a>
+            <a href="/admin/contactButtons" class="<%= activeRoute === 'contactButtons' ? 'active' : '' %>">Contact Button</a>
+            
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">Home Page</a>
+
+            <a href="/admin/homePageIntros" class="<%= activeRoute === 'homePageIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/homePageServicesHeadings" class="<%= activeRoute === 'homePageServicesHeadings' ? 'active' : '' %>">Services Heading</a>
+            <a href="/admin/homePageServices" class="<%= activeRoute === 'homePageServices' ? 'active' : '' %>">Service</a>
+            <a href="/admin/homePageChooseUsHeadings" class="<%= activeRoute === 'homePageChooseUsHeadings' ? 'active' : '' %>">Choose Us Heading</a> 
+            <a href="/admin/homePageChooseUss" class="<%= activeRoute === 'homePageChooseUss' ? 'active' : '' %>">Choose Us </a>
+            <a href="/admin/homePagePartnersHeadings" class="<%= activeRoute === 'homePagePartnersHeadings' ? 'active' : '' %>">Partners Heading</a>
+            <a href="/admin/homePagePartners" class="<%= activeRoute === 'homePagePartners' ? 'active' : '' %>">Partner</a>
+            <a href="/admin/homePageConsultations" class="<%= activeRoute === 'homePageConsultations' ? 'active' : '' %>">Consultation</a>
+            
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">Academy Page</a>
+            
+            <a href="/admin/academyPageIntros" class="<%= activeRoute === 'academyPageIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/academyPageCoursesHeadings" class="<%= activeRoute === 'academyPageCoursesHeadings' ? 'active' : '' %>">Courses Heading</a>
+            <a href="/admin/academyPageCourses" class="<%= activeRoute === 'academyPageCourses' ? 'active' : '' %>">Course</a>
+            <a href="/admin/academyPageContacts" class="<%= activeRoute === 'academyPageContacts' ? 'active' : '' %>">Contact</a>
+            <a href="/admin/academyPageTeams" class="<%= activeRoute === 'academyPageTeams' ? 'active' : '' %>">Team</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">About Page</a>
+
+            <a href="/admin/aboutIntros" class="<%= activeRoute === 'aboutIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/aboutChooses" class="<%= activeRoute === 'aboutChooses' ? 'active' : '' %>">Choose</a>
+            <a href="/admin/aboutValues" class="<%= activeRoute === 'aboutValues' ? 'active' : '' %>">Value</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">Design Page</a>
+
+            <a href="/admin/designIntros" class="<%= activeRoute === 'designIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/designCategories" class="<%= activeRoute === 'designCategories' ? 'active' : '' %>">Categories</a>
+            <a href="/admin/designPortfolios" class="<%= activeRoute === 'designPortfolios' ? 'active' : '' %>">Portfolio</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">IT Page</a>
+
+            <a href="/admin/iTIntros" class="<%= activeRoute === 'iTIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/iTServices" class="<%= activeRoute === 'iTServices' ? 'active' : '' %>">Service</a>
+            <a href="/admin/iTProcess" class="<%= activeRoute === 'iTProcess' ? 'active' : '' %>">Process</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">SMM Page</a>
+
+            <a href="/admin/smmIntros" class="<%= activeRoute === 'smmIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/smmServices" class="<%= activeRoute === 'smmServices' ? 'active' : '' %>">Service</a>
+            <a href="/admin/smmProcess" class="<%= activeRoute === 'smmProcess' ? 'active' : '' %>">Process</a>
+            <a href="/admin/business" class="<%= activeRoute === 'business' ? 'active' : '' %>">Business</a>
+            <a href="/admin/consultingServices" class="<%= activeRoute === 'consultingServices' ? 'active' : '' %>">Consulting Service</a>
+            <a href="/admin/ourServices" class="<%= activeRoute === 'ourServices' ? 'active' : '' %>">Our Service</a>
+            <a href="/admin/blogs" class="<%= activeRoute === 'blogs' ? 'active' : '' %>">Blog</a>
+            <a href="/admin/videos" class="<%= activeRoute === 'videos' ? 'active' : '' %>">Video</a>
+
+            <a href="#" style="background: #017fc2; color: #fff; cursor: default;">Footer</a>
+
+            <a href="/admin/footerIntros" class="<%= activeRoute === 'footerIntros' ? 'active' : '' %>">Intro</a>
+            <a href="/admin/footerLinksMains" class="<%= activeRoute === 'footerLinksMains' ? 'active' : '' %>">Links Main</a>
+            <a href="/admin/footerLinksServices" class="<%= activeRoute === 'footerLinksServices' ? 'active' : '' %>">Links Service</a>
+            <a href="/admin/footerContacts" class="<%= activeRoute === 'footerContacts' ? 'active' : '' %>">Contact</a>
+            <a href="/admin/footerCredits" class="<%= activeRoute === 'footerCredits' ? 'active' : '' %>">Credit</a>
+            <a href="/admin/footerSocialLinks"class="<%= activeRoute === 'footerSocialLinks' ? 'active' : '' %>">Social Link</a>
+        </div>
+    </aside>
+<% } %>

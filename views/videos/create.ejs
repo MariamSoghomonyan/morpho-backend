@@ -1,0 +1,40 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+
+  <form
+    action="/admin/<%= activeRoute %>/add"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <label>Content ID<span>*</span></label>
+    <input type="number" name="contentId" required />
+
+    <label>Language<span>*</span></label>
+    <input type="text" name="lang" required />
+
+    <label>Title<span>*</span></label>
+    <input type="text" name="title" required />
+
+    <label>Description<span>*</span></label>
+    <textarea name="descr" required></textarea>
+
+    <label>Date<span>*</span></label>
+    <input type="text" name="date" />
+
+    <label>Category<span>*</span></label>
+    <input type="text" name="category" />
+
+    <label>Duration<span>*</span></label>
+    <input type="text" name="duration" />
+
+    <label>Video<span>*</span></label>
+    <input type="file" name="video" accept="video/*" />
+
+    <label>Thumbnail<span>*</span></label>
+    <input type="file" name="thumbnail" accept="image/*" />
+
+    <img id="preview" class="image-preview" />
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>

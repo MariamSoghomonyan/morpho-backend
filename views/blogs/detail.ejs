@@ -1,0 +1,19 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+    <label>Language</label>
+    <input name="lang" value="<%= data.lang %>" />
+
+    <label>Subtitle</label>
+    <input name="subtitle" value="<%= data.subtitle %>" />
+
+    <label>Title</label>
+    <input name="title" value="<%= data.title %>" />
+
+    <label>Description</label>
+    <input name="descr" value="<%= data.descr %>" />
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>

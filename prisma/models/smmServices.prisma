@@ -1,0 +1,8 @@
+model SmmServices {
+  id     String @id @default(uuid())
+  lang   String
+  title  String
+  descr  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

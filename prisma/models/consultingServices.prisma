@@ -1,0 +1,21 @@
+model ConsultingService {
+  id    String @id @default(uuid())
+  lang  String
+
+  items ConsultingServiceItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ConsultingServiceItem {
+  id          String @id @default(uuid())
+  title       String
+  description String
+
+  serviceId   String
+  service     ConsultingService @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

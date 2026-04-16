@@ -1,0 +1,99 @@
+<form id="bulk-delete-form" action="/admin/smmServices/bulk-delete" method="post">
+
+  <input type="hidden" id="selected-ids" name="ids">
+
+  <div class="head">
+    <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+
+    <div class="right-side">
+      <button type="submit" id="delete-btn" class="create-btn" style="display:none;">
+        Delete selected
+      </button>
+
+      <a href="/admin/<%= activeRoute %>/create" class="create-btn">
+        Create new <%= title.toLowerCase() %>
+      </a>
+    </div>
+  </div>
+
+  <% if (data.length) { %>
+    <div class="table-wrapper">
+      <table>
+
+        <tr>
+          <th><input type="checkbox" id="select-all"></th>
+          <th>N</th>
+          <th>contentId</th>
+          <th>Lang</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Duration</th>
+          <th>Video</th>
+          <th>Thumbnail</th>
+          <th>Actions</th>
+        </tr>
+
+        <% data.forEach((item, i) => { %>
+        <tr>
+
+          <td>
+            <input type="checkbox" class="row-checkbox" value="<%= item.id %>">
+          </td>
+
+          <td><%= i + 1 %></td>
+
+          <td><%= item.contentId %></td>
+          <td><%= item.lang %></td>
+          <td><%= item.title %></td>
+          <td><%= item.descr %></td>
+          <td><%= item.date %></td>
+          <td><%= item.category %></td>
+          <td><%= item.duration %></td>
+
+          <td>
+            <% if (item.videoUrl) { %>
+              <a href="<%= item.videoUrl %>" target="_blank">
+                <video width="120">
+                  <source src="<%= item.videoUrl %>" />
+                </video>
+              </a>
+            <% } else { %>
+              -
+            <% } %>
+          </td>
+
+          <td>
+            <% if (item.thumbnail) { %>
+              <a href="<%= item.thumbnail %>" target="_blank">
+                <img 
+                  src="<%= item.thumbnail %>" 
+                  width="80" 
+                  style="object-fit:cover"
+                />
+              </a>
+            <% } else { %>
+              -
+            <% } %>
+          </td>
+
+          <td>
+            <div class="actions">
+              <a href="/admin/<%= activeRoute %>/<%= item.id %>" class="action">Detail</a>
+              <a href="/admin/<%= activeRoute %>/<%= item.id %>/delete" class="action">Remove</a>
+            </div>
+          </td>
+
+        </tr>
+        <% }) %>
+
+      </table>
+    </div>
+  <% } else { %>
+    <p class="no-data-text">No data yet.</p>
+  <% } %>
+
+</form>
+
+<script src="/js/bulkDelete.js"></script>

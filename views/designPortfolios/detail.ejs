@@ -1,0 +1,46 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+
+  <form
+    action="/admin/<%= activeRoute %>/edit/<%= data.id %>"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>">
+
+    <label>Title</label>
+    <input type="text" name="title" value="<%= data.title %>">
+
+    <label>Design Button</label>
+    <input type="text" name="designBtn" value="<%= data.designBtn %>">
+
+    <label>Current Images</label>
+
+    <% if (data.items && data.items.length) { %>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <% data.items.forEach(item => { %>
+          <% if (item.image) { %>
+            <img
+              src="<%= item.image %>"
+              style="width:80px; object-fit:cover;"
+              class="image-preview active"
+            >
+          <% } %>
+        <% }) %>
+      </div>
+    <% } else { %>
+      <p>No images</p>
+    <% } %>
+
+    <div id="items-container"></div>
+
+    <button type="button" id="add-item" class="create-btn submenu submit">
+      Add image
+    </button>
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>
+
+<script src="/js/designPortfoliosItems.js"></script>

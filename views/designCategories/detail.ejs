@@ -1,0 +1,74 @@
+<div class="action">
+
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>" />
+
+    <h2>TABS</h2>
+
+    <div id="tabs-container">
+
+      <% data.tabs.forEach((tab, tIndex) => { %>
+
+        <div class="submenu-row tab-block" data-index="<%= tIndex %>">
+
+          <div class="submenu-fields">
+            <input type="text"
+              name="tabs[<%= tIndex %>][label]"
+              value="<%= tab.label %>" />
+          </div>
+
+          <div class="submenu-actions">
+            <button type="button" class="remove-btn tab-remove">✖</button>
+          </div>
+
+          <div class="items-box">
+
+            <% tab.items.forEach((item, iIndex) => { %>
+
+              <div class="submenu-row item-row">
+
+                <div class="submenu-fields">
+                  <input type="text"
+                    name="tabs[<%= tIndex %>][items][<%= iIndex %>][title]"
+                    value="<%= item.title %>" />
+
+                  <input type="text"
+                    name="tabs[<%= tIndex %>][items][<%= iIndex %>][descr]"
+                    value="<%= item.descr %>" />
+                </div>
+
+                <div class="submenu-actions">
+                  <button type="button" class="remove-btn">✖</button>
+                </div>
+
+              </div>
+
+            <% }) %>
+
+          </div>
+
+          <button type="button" class="submit submenu add-item">
+            Add item
+          </button>
+
+        </div>
+
+      <% }) %>
+
+    </div>
+
+    <button type="button" id="add-tab" class="submit submenu">
+      Add tab
+    </button>
+
+    <button type="submit" class="submit">Update</button>
+
+  </form>
+
+</div>
+
+<script src="/js/designCategories.js"></script>

@@ -1,0 +1,53 @@
+<div class="action">
+     <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post" enctype="multipart/form-data">
+
+    <label>Content ID</label>
+    <input type="number" name="contentId" value="<%= data.contentId %>">
+
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>">
+
+    <label>Title</label>
+    <input type="text" name="title" value="<%= data.title %>">
+
+    <label>Description</label>
+    <textarea name="descr"><%= data.descr %></textarea>
+
+    <label>Date</label>
+    <input type="text" name="date" value="<%= data.date %>">
+
+    <label>Category</label>
+    <input type="text" name="category" value="<%= data.category %>">
+
+    <label>Duration</label>
+    <input type="text" name="duration" value="<%= data.duration %>">
+
+    <label>Current Video</label>
+    <% if (data.videoUrl) { %>
+      <video width="300" controls>
+        <source src="<%= data.videoUrl %>">
+      </video>
+    <% } else { %>
+      <p>No video</p>
+    <% } %>
+
+    <label>Change Video</label>
+<input type="file" name="video" accept="video/*">
+
+
+    <label>Current Thumbnail</label>
+    <% if (data.thumbnail) { %>
+      <img src="<%= data.thumbnail %>" class="image-preview active">
+    <% } else { %>
+      <p>No image</p>
+    <% } %>
+
+ <label>Change Thumbnail</label>
+<input type="file" name="thumbnail" accept="image/*">
+
+    <button type="submit" class="submit">Update</button>
+
+  </form>
+</div>

@@ -1,0 +1,24 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/add" method="post">
+    <label>Language<span>*</span></label>
+    <input type="text" name="lang" required />
+
+    <label>Subtitle<span>*</span></label>
+    <input type="text" name="subtitle" required />
+
+    <label>Offer Button<span>*</span></label>
+    <input type="text" name="offer_btn" required />
+
+    <h2>STEPS</h2>
+
+    <div id="steps-container"></div>
+
+    <button type="button" id="add-step" class="submit submenu">Add step</button>
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>
+
+<script src="/js/iTSteps.js"></script>

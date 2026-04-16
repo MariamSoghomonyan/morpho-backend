@@ -1,0 +1,39 @@
+<div class="action">
+  <h1><%= title %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>" />
+
+    <label>Title</label>
+    <input type="text" name="title" value="<%= data.title %>" />
+
+    <label>Consultation Button</label>
+    <input type="text" name="consultation_btn" value="<%= data.consation_btn %>" />
+
+    <h2>ITEMS</h2>
+
+    <div id="item-container">
+      <% data.items.forEach(i => { %>
+        <div class="submenu-row">
+          <div class="submenu-fields">
+            <input type="text" name="item_name[]" value="<%= i.name %>" />
+          </div>
+
+          <div class="submenu-actions">
+            <button type="button" class="remove-btn">✖</button>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+
+    <button type="button" id="add-item" class="submit submenu">
+      Add item
+    </button>
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>
+
+<script src="/js/servicesItems.js"></script>

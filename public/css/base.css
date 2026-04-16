@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+@import url('./header.css');
+@import url('./sidebar.css');
+@import url('./home.css');
+@import url('./action.css');
+@import url('./admin.css');
+@import url('./login.css');
+
+:root {
+    --primary: #017fc2;
+    --primary-2: #017fc2;
+    --primary-hover: #0369a0;
+    --body-bg: #f4f7fa;
+    --btn-bg: #fff;
+    --hairline-color: #ddd;
+    --text-color-1: #000;
+    --action-color: #0000EE;
+    --error-color: #ba2121;
+    --input-autofill: #E7EFFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Geist", sans-serif;
+    transition: all .2s linear;
+}
+
+body {
+    background: var(--body-bg);
+    overflow-y: scroll;
+}
+
+body.active {
+    --primary-2: #fff;
+    --body-bg: #121212;
+    --btn-bg: #000;
+    --text-color-1: #fff;
+    --action-color: #ffffff;
+    --hairline-color: #272727;
+    --error-color: #E25F5F;
+    --input-autofill: #272F3D;
+}
+
+.content {
+    padding: 25px 35px;
+    overflow: auto;
+}
+
+.content.active {
+    margin-top: 60px;
+    margin-left: 280px;
+}

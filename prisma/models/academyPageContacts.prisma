@@ -1,0 +1,24 @@
+model AcademyPageContact {
+  id            String   @id @default(uuid())
+  lang          String
+  title         String
+  nameLabel     String
+  emailLabel    String
+  phoneLabel    String
+  courseLabel   String
+  messageLabel  String
+  submitBtn     String
+  courses       AcademyPageCourse[]
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model AcademyPageCourse {
+  id          String   @id @default(uuid())
+  lang        String
+  title       String
+  contactId   String
+  contact     AcademyPageContact @relation(fields: [contactId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

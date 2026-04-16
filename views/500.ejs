@@ -1,0 +1,6 @@
+<h1><%= status %> <%= title %></h1>
+<p>Something went wrong on the server.</p>
+
+<% if (stack) { %>
+    <pre style="background: #eee; padding: 1em; border-radius: 5px;"><%= stack %></pre>
+<% } %>

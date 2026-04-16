@@ -1,0 +1,9 @@
+model footerContacts {
+  id              String   @id @default(cuid())
+  lang            String
+  email_label     String
+  telephone_label String
+  address_label   String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

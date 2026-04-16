@@ -1,0 +1,34 @@
+model designCategories {
+  id        String   @id @default(uuid())
+  lang      String
+
+  tabs      designCategoryTabs[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model designCategoryTabs {
+  id          String   @id @default(uuid())
+  label       String
+
+  categoryId  String
+  category    designCategories @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  items       designCategoryItems[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model designCategoryItems {
+  id        String   @id @default(uuid())
+  title     String
+  descr     String
+
+  tabId     String
+  tab       designCategoryTabs @relation(fields: [tabId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

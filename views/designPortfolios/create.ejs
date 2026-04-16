@@ -1,0 +1,30 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+
+  <form
+    action="/admin/<%= activeRoute %>/add"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <label>Language<span>*</span></label>
+    <input type="text" name="lang" required />
+
+    <label>Title<span>*</span></label>
+    <input type="text" name="title" required />
+
+    <label>Design Button<span>*</span></label>
+    <input type="text" name="designBtn" required />
+
+    <label>Images</label>
+
+    <div id="items-container"></div>
+
+    <button type="button" id="add-item" class="create-btn submenu submit">
+      Add image
+    </button>
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>
+
+<script src="/js/designPortfoliosItems.js"></script>

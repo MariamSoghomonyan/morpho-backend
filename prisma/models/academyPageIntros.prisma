@@ -1,0 +1,10 @@
+model academyPageIntros {
+  id          String   @id @default(uuid())
+  lang        String
+  badge       String
+  title       String
+  descr       String
+  advice_btn  String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

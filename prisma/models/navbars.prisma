@@ -1,0 +1,26 @@
+model Navbar {
+  id        String   @id @default(uuid())
+  lang      String
+  title     String
+  route     String?
+  order     Int      @default(0)
+
+  dropdowns NavbarDropdown[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model NavbarDropdown {
+  id        String   @id @default(uuid())
+  title     String
+  route     String
+  order     Int      @default(0)
+
+  navbarId  String
+  navbar    Navbar  @relation(fields: [navbarId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+

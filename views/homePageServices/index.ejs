@@ -1,0 +1,56 @@
+<% if (data.length) { %>
+  <div class="table-wrapper">
+    <table>
+
+      <tr>
+        <th><input type="checkbox" id="select-all"></th>
+        <th>N</th>
+        <th>Slug</th>
+        <th>Language</th>
+        <th>Image</th>
+        <th>Tab Name</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Button Text</th>
+        <th>Actions</th>
+      </tr>
+
+      <% data.forEach((elem, index) => { %>
+      <tr>
+
+        <td>
+          <input type="checkbox" class="row-checkbox" value="<%= elem.id %>">
+        </td>
+
+        <td><%= index + 1 %></td>
+        <td><%= elem.slug %></td>
+        <td><%= elem.lang %></td>
+
+        <td>
+          <% if (elem.image) { %>
+            <a href="<%= elem.image %>" target="_blank" rel="noopener noreferrer">
+              <img src="<%= elem.image %>" width="60" />
+            </a>
+          <% } else { %>
+            -
+          <% } %>
+        </td>
+
+        <td><%= elem.tabName %></td>
+        <td><%= elem.title %></td>
+        <td><%= elem.descr %></td>
+        <td><%= elem.buttonText %></td>
+
+        <td>
+          <a href="/admin/<%= activeRoute %>/<%= elem.id %>" class="action">Detail</a>
+          <a href="/admin/<%= activeRoute %>/<%= elem.id %>/delete" class="action">Remove</a>
+        </td>
+
+      </tr>
+      <% }) %>
+
+    </table>
+  </div>
+<% } else { %>
+  <p class="no-data-text">No data yet.</p>
+<% } %>

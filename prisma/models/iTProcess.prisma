@@ -1,0 +1,23 @@
+model ITProcess {
+  id        String   @id @default(uuid())
+  lang      String
+  subtitle  String
+  offer_btn String
+
+  steps     ITProcessStep[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ITProcessStep {
+  id         String   @id @default(uuid())
+  number     String
+  title      String
+
+  itProcessId String
+  itProcess   ITProcess @relation(fields: [itProcessId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

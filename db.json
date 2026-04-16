@@ -1,0 +1,2803 @@
+{
+  "logo": {
+    "id": 1,
+    "image": "/images/backend_images/header/logo.svg"
+  },
+  "navbars": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Գլխավոր",
+      "route": "/",
+      "dropdown": []
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Մեր մասին",
+      "route": "/about",
+      "dropdown": []
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Ծառայություններ",
+      "dropdown": [
+        {
+          "id": 31,
+          "title": "SMM / Marketing",
+          "route": "/services/smm-marketing"
+        },
+        {
+          "id": 32,
+          "title": "Բիզնես խորհրդատվություն",
+          "route": "/services/business-consulting"
+        },
+        {
+          "id": 33,
+          "title": "Դիզայն",
+          "route": "/services/design"
+        },
+        {
+          "id": 34,
+          "title": "IT ծառայություններ",
+          "route": "/services/it"
+        },
+        {
+          "id": 35,
+          "title": "Morpho Academy",
+          "route": "/academy"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Մորֆո Ակադեմիա",
+      "route": "/academy",
+      "dropdown": []
+    },
+    {
+      "id": 5,
+      "lang": "am",
+      "title": "Բլոգ",
+      "route": "/blog",
+      "dropdown": []
+    },
+    {
+      "id": 6,
+      "lang": "en",
+      "title": "Home",
+      "route": "/",
+      "dropdown": []
+    },
+    {
+      "id": 7,
+      "lang": "en",
+      "title": "About Us",
+      "route": "/about",
+      "dropdown": []
+    },
+    {
+      "id": 8,
+      "lang": "en",
+      "title": "Services",
+      "dropdown": [
+        {
+          "id": 81,
+          "title": "SMM / Marketing",
+          "route": "/services/smm-marketing"
+        },
+        {
+          "id": 82,
+          "title": "Business Consulting",
+          "route": "/services/business-consulting"
+        },
+        {
+          "id": 83,
+          "title": "Design",
+          "route": "/services/design"
+        },
+        {
+          "id": 84,
+          "title": "IT Services",
+          "route": "/services/it"
+        },
+        {
+          "id": 85,
+          "title": "Morpho Academy",
+          "route": "/academy"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "lang": "en",
+      "title": "Morpho Academy",
+      "route": "/academy",
+      "dropdown": []
+    },
+    {
+      "id": 10,
+      "lang": "en",
+      "title": "Blog",
+      "route": "/blog",
+      "dropdown": []
+    },
+    {
+      "id": 11,
+      "lang": "ru",
+      "title": "Главная",
+      "route": "/",
+      "dropdown": []
+    },
+    {
+      "id": 12,
+      "lang": "ru",
+      "title": "О нас",
+      "route": "/about",
+      "dropdown": []
+    },
+    {
+      "id": 13,
+      "lang": "ru",
+      "title": "Услуги",
+      "dropdown": [
+        {
+          "id": 131,
+          "title": "SMM / Маркетинг",
+          "route": "/services/smm-marketing"
+        },
+        {
+          "id": 132,
+          "title": "Бизнес консультация",
+          "route": "/services/business-consulting"
+        },
+        {
+          "id": 133,
+          "title": "Дизайн",
+          "route": "/services/design"
+        },
+        {
+          "id": 134,
+          "title": "IT услуги",
+          "route": "/services/it"
+        },
+        {
+          "id": 135,
+          "title": "Morpho Academy",
+          "route": "/academy"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "lang": "ru",
+      "title": "Морфо Академия",
+      "route": "/academy",
+      "dropdown": []
+    },
+    {
+      "id": 15,
+      "lang": "ru",
+      "title": "Blog",
+      "route": "/blog",
+      "dropdown": []
+    }
+  ],
+  "langs": [
+    {
+      "id": 1,
+      "code": "am",
+      "flag": "/images/backend_images/flags/am.png"
+    },
+    {
+      "id": 2,
+      "code": "en",
+      "flag": "/images/backend_images/flags/en.png"
+    },
+    {
+      "id": 3,
+      "code": "ru",
+      "flag": "/images/backend_images/flags/ru.png"
+    }
+  ],
+  "contact_buttons": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Կապ մեզ հետ",
+      "route": "/contact"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Contact Us",
+      "route": "/contact"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Связаться с нами",
+      "route": "/contact"
+    }
+  ],
+  "home_page_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "ԳԱՂԱՓԱՐԻՑ ՄԻՆՉԵՎ ԻՐԱԿԱՆԱՑՈՒՄ",
+      "title": "Թվային լուծումներ <span class='highlight'>բիզնեսի</span> աճի համար",
+      "descr": "Մարքեթինգ, IT, դիզայն և կրթություն՝ մեկ էկոհամակարգում։ Կառուցում ենք համակարգեր, ոչ պարզապես ծառայություններ։",
+      "advice_btn": "Անվճար խորհրդատվություն",
+      "services_btn": "Տեսնել ծառայությունները"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "subtitle": "FROM IDEA TO IMPLEMENTATION",
+      "title": "Digital Solutions for <span class='highlight'>Business</span> Growth",
+      "descr": "Marketing, IT, design and education in one ecosystem. We build systems, not just services.",
+      "advice_btn": "Free Consultation",
+      "services_btn": "View Services"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "subtitle": "ОТ ИДЕИ ДО РЕАЛИЗАЦИИ",
+      "title": "Цифровые решения для роста <span class='highlight'>бизнеса</span>",
+      "descr": "Маркетинг, ИТ, дизайн и образование в одной экосистеме. Мы создаём системы, а не просто сервисы.",
+      "advice_btn": "Бесплатная консультация",
+      "services_btn": "Посмотреть услуги"
+    }
+  ],
+  "home_page_services_heading": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ",
+      "title": "Մեր լուծումները"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "SERVICES",
+      "title": "Our Solutions"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "СЛУЖБЫ",
+      "title": "Наши решения"
+    }
+  ],
+  "home_page_services": [
+    {
+      "id": 1,
+      "slug": "smm",
+      "lang": "am",
+      "image": "/images/backend_images/home_services/smm-marketing.png",
+      "tabName": "SMM / Marketing",
+      "title": "SMM / Marketing",
+      "descr": "Արդյունքներին ուղղված մարքեթինգ և գովազդ",
+      "buttonText": "Մանրամասներ"
+    },
+    {
+      "id": 2,
+      "slug": "smm",
+      "lang": "ru",
+      "image": "/images/backend_images/home_services/smm-marketing.png",
+      "tabName": "SMM / Маркетинг",
+      "title": "SMM / Маркетинг",
+      "descr": "Маркетинг и реклама, ориентированные на результат",
+      "buttonText": "Подробнее"
+    },
+    {
+      "id": 3,
+      "slug": "smm",
+      "lang": "en",
+      "image": "/images/backend_images/home_services/smm-marketing.png",
+      "tabName": "SMM / Marketing",
+      "title": "SMM / Marketing",
+      "descr": "Result-oriented marketing and advertising",
+      "buttonText": "Details"
+    },
+    {
+      "id": 4,
+      "slug": "business",
+      "lang": "am",
+      "image": "/images/backend_images/home_services/business-consulting.png",
+      "tabName": "Բիզնես խորհրդատվություն",
+      "title": "Բիզնես խորհրդատվություն",
+      "descr": "Ռազմավարություն, աճ, թվայնացում",
+      "buttonText": "Մանրամասներ"
+    },
+    {
+      "id": 5,
+      "slug": "business",
+      "lang": "ru",
+      "image": "/images/backend_images/home_services/business-consulting.png",
+      "tabName": "Бизнес-консалтинг",
+      "title": "Бизнес-консалтинг",
+      "descr": "Стратегия, рост, цифровизация",
+      "buttonText": "Подробнее"
+    },
+    {
+      "id": 6,
+      "slug": "business",
+      "lang": "en",
+      "image": "/images/backend_images/home_services/business-consulting.png",
+      "tabName": "Business Consulting",
+      "title": "Business Consulting",
+      "descr": "Strategy, growth, digital transformation",
+      "buttonText": "Details"
+    },
+    {
+      "id": 7,
+      "slug": "design",
+      "lang": "am",
+      "image": "/images/backend_images/home_services/design.png",
+      "tabName": "Դիզայն",
+      "title": "Դիզայն",
+      "descr": "Բրենդինգ, UX/UI, վիզուալ լուծումներ",
+      "buttonText": "Մանրամասներ"
+    },
+    {
+      "id": 8,
+      "slug": "design",
+      "lang": "ru",
+      "image": "/images/backend_images/home_services/design.png",
+      "tabName": "Дизайн",
+      "title": "Дизайн",
+      "descr": "Брендинг, UX/UI, визуальные решения",
+      "buttonText": "Подробнее"
+    },
+    {
+      "id": 9,
+      "slug": "design",
+      "lang": "en",
+      "image": "/images/backend_images/home_services/design.png",
+      "tabName": "Design",
+      "title": "Design",
+      "descr": "Branding, UX/UI, visual solutions",
+      "buttonText": "Details"
+    },
+    {
+      "id": 10,
+      "slug": "it",
+      "lang": "am",
+      "image": "/images/backend_images/home_services/it.png",
+      "tabName": "IT ծառայություններ",
+      "title": "IT ծառայություններ",
+      "descr": "Վեբ, մոբայլ, ավտոմատացում, սերվերներ",
+      "buttonText": "Մանրամասներ"
+    },
+    {
+      "id": 11,
+      "slug": "it",
+      "lang": "ru",
+      "image": "/images/backend_images/home_services/it.png",
+      "tabName": "IT услуги",
+      "title": "IT услуги",
+      "descr": "Веб, мобильные решения, автоматизация, серверы",
+      "buttonText": "Подробнее"
+    },
+    {
+      "id": 12,
+      "slug": "it",
+      "lang": "en",
+      "image": "/images/backend_images/home_services/it.png",
+      "tabName": "IT Services",
+      "title": "IT Services",
+      "descr": "Web, mobile, automation, servers",
+      "buttonText": "Details"
+    },
+    {
+      "id": 13,
+      "slug": "academy",
+      "lang": "am",
+      "image": "/images/backend_images/home_services/academy.png",
+      "tabName": "Morpho Academy",
+      "title": "Morpho Academy",
+      "descr": "Կրթություն՝ իրական հմտությունների համար",
+      "buttonText": "Մանրամասներ"
+    },
+    {
+      "id": 14,
+      "slug": "academy",
+      "lang": "ru",
+      "image": "/images/backend_images/home_services/academy.png",
+      "tabName": "Morpho Academy",
+      "title": "Morpho Academy",
+      "descr": "Образование для реальных навыков",
+      "buttonText": "Подробнее"
+    },
+    {
+      "id": 15,
+      "slug": "academy",
+      "lang": "en",
+      "image": "/images/backend_images/home_services/academy.png",
+      "tabName": "Morpho Academy",
+      "title": "Morpho Academy",
+      "descr": "Education for real-world skills",
+      "buttonText": "Details"
+    }
+  ],
+  "home_page_choose_us_heading": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ԱՐԺԵՔՆԵՐ",
+      "title": "Ինչու <span class='blue_text'>ընտրել մեզ</span>",
+      "descr": "Մեր մոտեցումը օգնում է բիզնեսներին աճել և զարգանալ:"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "badge": "ЦЕННОСТИ",
+      "title": "Почему <span class='blue_text'>выбирают нас</span>",
+      "descr": "Наш подход помогает бизнесу расти и развиваться."
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "badge": "VALUES",
+      "title": "Why <span class='blue_text'>choose us</span>",
+      "descr": "Our approach helps businesses grow and scale."
+    }
+  ],
+  "home_page_choose_us": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Համակարգային մոտեցում"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Իրական փորձ և արդյունքներ"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Իրական փորձ և արդյունքներ"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Ժամանակակից տեխնոլոգիաներ"
+    },
+    {
+      "id": 1,
+      "lang": "ru",
+      "title": "Системный подход"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "title": "Реальный опыт и результаты"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Реальный опыт и результаты"
+    },
+    {
+      "id": 4,
+      "lang": "ru",
+      "title": "Современные технологии"
+    },
+    {
+      "id": 1,
+      "lang": "en",
+      "title": "Systematic approach"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Real experience and results"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "title": "Real experience and results"
+    },
+    {
+      "id": 4,
+      "lang": "en",
+      "title": "Modern technologies"
+    }
+  ],
+  "home_page_partners_heading": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "Գործընկերներ",
+      "title": "Մեզ վստահում են"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "Partners",
+      "title": "Trusted by"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "Партнеры",
+      "title": "Нам доверяют"
+    }
+  ],
+  "home_page_partners": [
+    {
+      "id": 1,
+      "image": "/images/backend_images/home_partners/abbey-national.svg"
+    },
+    {
+      "id": 2,
+      "image": "/images/backend_images/home_partners/adidas.svg"
+    },
+    {
+      "id": 3,
+      "image": "/images/backend_images/home_partners/apple.svg"
+    },
+    {
+      "id": 4,
+      "image": "/images/backend_images/home_partners/avalara.svg"
+    },
+    {
+      "id": 5,
+      "image": "/images/backend_images/home_partners/binance.svg"
+    },
+    {
+      "id": 6,
+      "image": "/images/backend_images/home_partners/bithumb.svg"
+    },
+    {
+      "id": 7,
+      "image": "/images/backend_images/home_partners/boputs.svg"
+    },
+    {
+      "id": 8,
+      "image": "/images/backend_images/home_partners/chanel.svg"
+    },
+    {
+      "id": 9,
+      "image": "/images/backend_images/home_partners/samsung.svg"
+    },
+    {
+      "id": 10,
+      "image": "/images/backend_images/home_partners/liberty-seguros.svg"
+    },
+    {
+      "id": 11,
+      "image": "/images/backend_images/home_partners/imextra.svg"
+    },
+    {
+      "id": 12,
+      "image": "/images/backend_images/home_partners/guiness-draught.svg"
+    }
+  ],
+  "home_page_consultations": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Ուզու՞մ եք հասկանալ՝ ինչ լուծում է պետք հենց ձեր <span class='highlight'>բիզնեսին</span>",
+      "descr": "Անվճար խորհրդատվություն ստանալու և մենք կգտնենք ձեզ համառ լավագույն լուծումը։",
+      "consultation_btn": "Պատվիրել խորհրդատվություն"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Do you want to understand what solution your <span class='highlight'>business</span> needs?",
+      "descr": "Get a free consultation and we will help you find the best solution.",
+      "consultation_btn": "Get Consultation"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Хотите понять, какое решение нужно вашему <span class='highlight'>бизнесу</span>?",
+      "descr": "Получите бесплатную консультацию, и мы поможем найти лучшее решение.",
+      "consultation_btn": "Заказать консультацию"
+    }
+  ],
+  "academy_page_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ԴԱՍԸՆԹԱՑՆԵՐ",
+      "title": "Մորֆո <span class='highlight'>ակադեմիա</span>",
+      "descr": "Կրթություն՝ իրական մասնագիտությունների համար",
+      "advice_btn": "Գրանցվել դասընթացին"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "COURSES",
+      "title": "Morpho <span class='highlight'>Academy</span>",
+      "descr": "Education for real professions",
+      "advice_btn": "Register for the course"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "КУРСЫ",
+      "title": "Морфо <span class='highlight'>Академия</span>",
+      "descr": "Образование для реальных профессий",
+      "advice_btn": "Записаться на курс"
+    }
+  ],
+  "academy_page_courses_headings": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "Դասընթացներ",
+      "title": "Ընտրեք ձեր ուղղությունը"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "Courses",
+      "title": "Choose your direction"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "Курсы",
+      "title": "Выберите направление"
+    }
+  ],
+  "academy_page_courses": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Վեբ ծրագրավորում"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Գրաֆիկական դիզայն"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Հոլովակների պատրաստում"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Թվային մարքեթինգ"
+    },
+    {
+      "id": 5,
+      "lang": "am",
+      "title": "Python / Ավտոմատացում"
+    },
+    {
+      "id": 1,
+      "lang": "en",
+      "title": "Web Programming"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Graphic Design"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "title": "Video Production"
+    },
+    {
+      "id": 4,
+      "lang": "en",
+      "title": "Digital Marketing"
+    },
+    {
+      "id": 5,
+      "lang": "en",
+      "title": "Python / Automation"
+    },
+    {
+      "id": 1,
+      "lang": "ru",
+      "title": "Веб-программирование"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "title": "Графический дизайн"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Создание видеороликов"
+    },
+    {
+      "id": 4,
+      "lang": "ru",
+      "title": "Цифровой маркетинг"
+    },
+    {
+      "id": 5,
+      "lang": "ru",
+      "title": "Python / Автоматизация"
+    }
+  ],
+  "academy_page_contacts": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Գրանցվել",
+      "name_label": "Անուն",
+      "email_label": "Էլ․ հասցե",
+      "phone_label": "Հեռախոսահամար",
+      "course_label": "Ընտրել դասընթաց",
+      "courses": [
+        {
+          "id": 1,
+          "lang": "am",
+          "title": "Վեբ ծրագրավորում"
+        },
+        {
+          "id": 2,
+          "lang": "am",
+          "title": "Գրաֆիկական դիզայն"
+        },
+        {
+          "id": 3,
+          "lang": "am",
+          "title": "Հոլովակների պատրաստում"
+        },
+        {
+          "id": 4,
+          "lang": "am",
+          "title": "Թվային մարքեթինգ"
+        },
+        {
+          "id": 5,
+          "lang": "am",
+          "title": "Python / Ավտոմատացում"
+        }
+      ],
+      "message_label": "Հաղորդագրություն",
+      "submit_btn": "Գրանցվել"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Register",
+      "name_label": "Name",
+      "email_label": "Email",
+      "phone_label": "Phone",
+      "course_label": "Select Course",
+      "courses": [
+        {
+          "id": 1,
+          "lang": "en",
+          "title": "Web Programming"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "title": "Graphic Design"
+        },
+        {
+          "id": 3,
+          "lang": "en",
+          "title": "Video Production"
+        },
+        {
+          "id": 4,
+          "lang": "en",
+          "title": "Digital Marketing"
+        },
+        {
+          "id": 5,
+          "lang": "en",
+          "title": "Python / Automation"
+        }
+      ],
+      "message_label": "Message",
+      "submit_btn": "Register"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Записаться",
+      "name_label": "Имя",
+      "email_label": "Email",
+      "phone_label": "Телефон",
+      "course_label": "Выберите курс",
+      "courses": [
+        {
+          "id": 1,
+          "lang": "ru",
+          "title": "Веб-программирование"
+        },
+        {
+          "id": 2,
+          "lang": "ru",
+          "title": "Графический дизайн"
+        },
+        {
+          "id": 3,
+          "lang": "ru",
+          "title": "Создание видеороликов"
+        },
+        {
+          "id": 4,
+          "lang": "ru",
+          "title": "Цифровой маркетинг"
+        },
+        {
+          "id": 5,
+          "lang": "ru",
+          "title": "Python / Автоматизация"
+        }
+      ],
+      "message_label": "Сообщение",
+      "submit_btn": "Записаться"
+    }
+  ],
+  "academy_page_teams": [
+    {
+      "id": "1",
+      "image": "/images/backend_images/contact_team/team_1.jpg"
+    },
+    {
+      "id": "2",
+      "image": "/images/backend_images/contact_team/team_2.jpg"
+    },
+    {
+      "id": "3",
+      "image": "/images/backend_images/contact_team/team_3.jpg"
+    },
+    {
+      "id": "4",
+      "image": "/images/backend_images/contact_team/team_4.jpg"
+    },
+    {
+      "id": "5",
+      "image": "/images/backend_images/contact_team/team_5.jpg"
+    },
+    {
+      "id": "6",
+      "image": "/images/backend_images/contact_team/team_6.jpg"
+    }
+  ],
+  "about_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ՄԵՐ ՄԱՍԻՆ",
+      "title": "Մենք ստեղծում ենք թվային <span class='highlight'>լուծումներ</span>",
+      "descr": "որոնք օգնում են բիզնեսներին աճել, օպտիմալացնել գործընթացները և ուժեղացնել բրենդը:"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "ABOUT US",
+      "title": "We create digital <span class='highlight'>solutions</span>",
+      "descr": "that help businesses grow, optimize processes and strengthen the brand."
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "О НАС",
+      "title": "Мы создаем цифровые <span class='highlight'>решения</span>",
+      "descr": "которые помогают бизнесу расти, оптимизировать процессы и укреплять бренд."
+    }
+  ],
+  "about_chooses": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ԳՈՐԾԸՆԹԱՑ",
+      "title": "Մեր աշխատանքի փուլերը",
+      "items": [
+        {
+          "id": 1,
+          "title": "Վերլուծություն"
+        },
+        {
+          "id": 2,
+          "title": "Ռազմավարություն"
+        },
+        {
+          "id": 3,
+          "title": "Դիզայն և զարգացում"
+        },
+        {
+          "id": 4,
+          "title": "Գործարկում"
+        },
+        {
+          "id": 5,
+          "title": "Աջակցություն և աճ"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "PROCESS",
+      "title": "Our work stages",
+      "items": [
+        {
+          "id": 1,
+          "title": "Analysis"
+        },
+        {
+          "id": 2,
+          "title": "Strategy"
+        },
+        {
+          "id": 3,
+          "title": "Design and Development"
+        },
+        {
+          "id": 4,
+          "title": "Launch"
+        },
+        {
+          "id": 5,
+          "title": "Support and Growth"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "ПРОЦЕСС",
+      "title": "Этапы нашей работы",
+      "items": [
+        {
+          "id": 1,
+          "title": "Анализ"
+        },
+        {
+          "id": 2,
+          "title": "Стратегия"
+        },
+        {
+          "id": 3,
+          "title": "Дизайн и разработка"
+        },
+        {
+          "id": 4,
+          "title": "Запуск"
+        },
+        {
+          "id": 5,
+          "title": "Поддержка и рост"
+        }
+      ]
+    }
+  ],
+  "about_values": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "ԱՐԺԵՔՆԵՐ",
+      "title": "Մեր մոտեցումը",
+      "items": [
+        {
+          "id": 1,
+          "title": "Պատասխանատվություն"
+        },
+        {
+          "id": 2,
+          "title": "Որակ"
+        },
+        {
+          "id": 3,
+          "title": "Թափանցիկություն"
+        },
+        {
+          "id": 4,
+          "title": "Արդյունք"
+        }
+      ],
+      "about_btn": "Քննարկել նախագիծ"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "VALUES",
+      "title": "Our Approach",
+      "items": [
+        {
+          "id": 1,
+          "title": "Responsibility"
+        },
+        {
+          "id": 2,
+          "title": "Quality"
+        },
+        {
+          "id": 3,
+          "title": "Transparency"
+        },
+        {
+          "id": 4,
+          "title": "Result"
+        }
+      ],
+      "about_btn": "Discuss Project"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "ЦЕННОСТИ",
+      "title": "Наш подход",
+      "items": [
+        {
+          "id": 1,
+          "title": "Ответственность"
+        },
+        {
+          "id": 2,
+          "title": "Качество"
+        },
+        {
+          "id": 3,
+          "title": "Прозрачность"
+        },
+        {
+          "id": 4,
+          "title": "Результат"
+        }
+      ],
+      "about_btn": "Обсудить проект"
+    }
+  ],
+  "design_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "badge": "GRAPHIC / UX/UI",
+      "title": "Դիզայն, որը ոչ միայն գեղեցիկ է, <span class='highlight'>այլ աշխատում է</span>"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "badge": "GRAPHIC / UX/UI",
+      "title": "Design that is not only beautiful, <span class='highlight'>but also works</span>"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "badge": "GRAPHIC / UX/UI",
+      "title": "Дизайн, который не только красив, <span class='highlight'>но и работает</span>"
+    }
+  ],
+  "design_categories": [
+    {
+      "id": 1,
+      "lang": "am",
+      "tabs": [
+        {
+          "id": 1,
+          "label": "Graphic Design",
+          "items": [
+            {
+              "id": 1,
+              "title": "Լոգո / Բրենդինգ",
+              "descr": "Լոգոների և բրենդինգի մշակում"
+            },
+            {
+              "id": 2,
+              "title": "Սոցիալական վիզուալներ",
+              "descr": "Սոցիալական մեդիայի վիզուալներ"
+            },
+            {
+              "id": 3,
+              "title": "Տպագրություն և փաթեթավորում",
+              "descr": "Տպագրական նյութերի դիզայն"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "UX/UI",
+          "items": [
+            {
+              "id": 1,
+              "title": "Վեբ կայքեր",
+              "descr": "Վեբ կայքերի դիզայն"
+            },
+            {
+              "id": 2,
+              "title": "Մոբայլ հավելվածներ",
+              "descr": "Մոբայլ հավելվածների UX/UI"
+            },
+            {
+              "id": 3,
+              "title": "Դեշբորդներ",
+              "descr": "Վերլուծական պանելներ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "tabs": [
+        {
+          "id": 1,
+          "label": "Graphic Design",
+          "items": [
+            {
+              "id": 1,
+              "title": "Logo / Branding",
+              "descr": "Logo and branding development"
+            },
+            {
+              "id": 2,
+              "title": "Social visuals",
+              "descr": "Social media visuals"
+            },
+            {
+              "id": 3,
+              "title": "Print & Packaging",
+              "descr": "Print and packaging design"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "UX/UI",
+          "items": [
+            {
+              "id": 1,
+              "title": "Websites",
+              "descr": "Website design"
+            },
+            {
+              "id": 2,
+              "title": "Mobile apps",
+              "descr": "Mobile app UX/UI"
+            },
+            {
+              "id": 3,
+              "title": "Dashboards",
+              "descr": "Analytical dashboards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "tabs": [
+        {
+          "id": 1,
+          "label": "Graphic Design",
+          "items": [
+            {
+              "id": 1,
+              "title": "Лого / Брендинг",
+              "descr": "Разработка логотипов и брендинга"
+            },
+            {
+              "id": 2,
+              "title": "Социальные визуалы",
+              "descr": "Визуалы для социальных сетей"
+            },
+            {
+              "id": 3,
+              "title": "Печать и упаковка",
+              "descr": "Дизайн полиграфии и упаковки"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "UX/UI",
+          "items": [
+            {
+              "id": 1,
+              "title": "Веб-сайты",
+              "descr": "Дизайн веб-сайтов"
+            },
+            {
+              "id": 2,
+              "title": "Мобильные приложения",
+              "descr": "UX/UI мобильных приложений"
+            },
+            {
+              "id": 3,
+              "title": "Панели управления",
+              "descr": "Аналитические панели"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "design_portfolios": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Portfolio",
+      "items": [
+        {
+          "id": 1,
+          "image": "/images/backend_images/portfolio/test-image.jpg"
+        },
+        {
+          "id": 2,
+          "image": ""
+        },
+        {
+          "id": 3,
+          "image": ""
+        },
+        {
+          "id": 4,
+          "image": ""
+        },
+        {
+          "id": 5,
+          "image": ""
+        },
+        {
+          "id": 6,
+          "image": ""
+        },
+        {
+          "id": 7,
+          "image": ""
+        },
+        {
+          "id": 8,
+          "image": ""
+        },
+        {
+          "id": 9,
+          "image": ""
+        }
+      ],
+      "design_btn": "Պատվիրել դիզայն"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Portfolio",
+      "items": [
+        {
+          "id": 1,
+          "image": "/images/backend_images/portfolio/test-image.jpg"
+        },
+        {
+          "id": 2,
+          "image": ""
+        },
+        {
+          "id": 3,
+          "image": ""
+        },
+        {
+          "id": 4,
+          "image": ""
+        },
+        {
+          "id": 5,
+          "image": ""
+        },
+        {
+          "id": 6,
+          "image": ""
+        },
+        {
+          "id": 7,
+          "image": ""
+        },
+        {
+          "id": 8,
+          "image": ""
+        },
+        {
+          "id": 9,
+          "image": ""
+        }
+      ],
+      "design_btn": "Order Design"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Портфолио",
+      "items": [
+        {
+          "id": 1,
+          "image": "/images/backend_images/portfolio/test-image.jpg"
+        },
+        {
+          "id": 2,
+          "image": ""
+        },
+        {
+          "id": 3,
+          "image": ""
+        },
+        {
+          "id": 4,
+          "image": ""
+        },
+        {
+          "id": 5,
+          "image": ""
+        },
+        {
+          "id": 6,
+          "image": ""
+        },
+        {
+          "id": 7,
+          "image": ""
+        },
+        {
+          "id": 8,
+          "image": ""
+        },
+        {
+          "id": 9,
+          "image": ""
+        }
+      ],
+      "design_btn": "Заказать дизайн"
+    }
+  ],
+  "iT_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "IT ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ",
+      "title": "IT լուծումներ` բիզնեսի <span class='highlight'>ավտոմատացման</span> համար"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "subtitle": "ИТ-УСЛУГИ",
+      "title": "ИТ-решения для <span class='highlight'>автоматизации</span> бизнеса"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "IT SERVICES",
+      "title": "IT solutions for <span class='highlight'>business automation</span>"
+    }
+  ],
+  "iT_services": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Վեբ կայքեր",
+      "descr": "Գովազդային Էջ, կորպորատիվ կայքեր, Օնլայն առևտուր"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Android / iOS հավելվածներ",
+      "descr": "Կրոս-պլատֆորմ մոբայլ"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Ավտոմատացման համակարգեր",
+      "descr": "Հաճախորդների կառավարում, Բիզնես ռեսուրսների կառավարում և այլն"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Սերվերների նախագծում և հավաքում ",
+      "descr": "Սերվերների կարգավորում"
+    },
+    {
+      "id": 5,
+      "lang": "am",
+      "title": "API և ինտեգրացիաներ",
+      "descr": "Երրորդ համակարգերի կապակցում"
+    },
+    {
+      "id": 6,
+      "lang": "ru",
+      "title": "Веб-сайты",
+      "descr": "Лендинги, корпоративные сайты, онлайн-торговля"
+    },
+    {
+      "id": 7,
+      "lang": "ru",
+      "title": "Android / iOS приложения",
+      "descr": "Кроссплатформенные мобильные приложения"
+    },
+    {
+      "id": 8,
+      "lang": "ru",
+      "title": "Системы автоматизации",
+      "descr": "Управление клиентами, управление бизнес-ресурсами и др."
+    },
+    {
+      "id": 9,
+      "lang": "ru",
+      "title": "Проектирование и сборка серверов",
+      "descr": "Настройка серверов"
+    },
+    {
+      "id": 10,
+      "lang": "ru",
+      "title": "API и интеграции",
+      "descr": "Интеграция сторонних систем"
+    },
+    {
+      "id": 11,
+      "lang": "en",
+      "title": "Websites",
+      "descr": "Landing pages, corporate websites, e-commerce"
+    },
+    {
+      "id": 12,
+      "lang": "en",
+      "title": "Android / iOS apps",
+      "descr": "Cross-platform mobile applications"
+    },
+    {
+      "id": 13,
+      "lang": "en",
+      "title": "Automation systems",
+      "descr": "Customer management, business resource management, etc."
+    },
+    {
+      "id": 14,
+      "lang": "en",
+      "title": "Server design and assembly",
+      "descr": "Server configuration"
+    },
+    {
+      "id": 15,
+      "lang": "en",
+      "title": "API and integrations",
+      "descr": "Third-party system integration"
+    }
+  ],
+  "iT_process": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "Tech Stack",
+      "steps": [
+        {
+          "id": 1,
+          "number": "1",
+          "title": "Python"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Django"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Node.js"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "React"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "React Native"
+        },
+        {
+          "id": 6,
+          "number": "6",
+          "title": "Cloud"
+        }
+      ],
+      "offer_btn": "Ստանալ առաջարկ"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "subtitle": "Tech Stack",
+      "steps": [
+        {
+          "id": 1,
+          "number": "1",
+          "title": "Python"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Django"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Node.js"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "React"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "React Native"
+        },
+        {
+          "id": 6,
+          "number": "6",
+          "title": "Cloud"
+        }
+      ],
+      "offer_btn": "Получить предложение"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "Tech Stack",
+      "steps": [
+        {
+          "id": 3,
+          "number": "1",
+          "title": "Python"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Django"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Node.js"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "React"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "React Native"
+        },
+        {
+          "id": 6,
+          "number": "6",
+          "title": "Cloud"
+        }
+      ],
+      "offer_btn": "Get Offer"
+    }
+  ],
+  "smm_intro": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "SMM / MARKETING",
+      "title": "SMM և մարքեթինգային լուծումներ, որոնք բերում են <span class='highlight'>արդյունք</span>",
+      "descr": "Մենք աշխատում ենք թվերով, ոչ խոստումներով",
+      "advice_btn": "Անվճար խորհրդատվություն"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "subtitle": "SMM/МАРКЕТИНГ",
+      "title": "SMM и маркетинговые решения, которые приносят <span class='blue'>результат</span>",
+      "descr": "Мы работаем с цифрами, а не с обещаниями",
+      "advice_btn": "Бесплатная консультация"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "SMM / MARKETING",
+      "title": "SMM and marketing solutions that deliver <span class='blue'>results</span>",
+      "descr": "We work with numbers, not promises",
+      "advice_btn": "Free consultation"
+    }
+  ],
+  "smm_services": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "ՍՄՄ կառավարում",
+      "descr": "Սոցիալական հարթակների կառավարում"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Բովանդակություն և Հեղինակային իրավունք",
+      "descr": "Բովանդակություն և տեքստ"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Մետա  և Գուգլ գովազդ",
+      "descr": "Թիրախային գովազդային արշավներ"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Բրենդինգ և Կրեատիվ",
+      "descr": "Վիզուալ կոնտենտ և կրեատիվ"
+    },
+    {
+      "id": 5,
+      "lang": "am",
+      "title": "Վերլուծություններ և հաշվետվություններ",
+      "descr": "Տվյալների հաշվետվություն"
+    },
+    {
+      "id": 6,
+      "lang": "ru",
+      "title": "СММ управление",
+      "descr": "Управление социальными платформами"
+    },
+    {
+      "id": 7,
+      "lang": "ru",
+      "title": "Контент и копирайтинг",
+      "descr": "Контент и тексты"
+    },
+    {
+      "id": 8,
+      "lang": "ru",
+      "title": "Мета и Гугл реклама",
+      "descr": "Таргетированные рекламные кампании"
+    },
+    {
+      "id": 9,
+      "lang": "ru",
+      "title": "Брендинг и креатив",
+      "descr": "Визуальный контент и креатив"
+    },
+    {
+      "id": 10,
+      "lang": "ru",
+      "title": "Аналитика и отчёты",
+      "descr": "Отчётность по данным"
+    },
+    {
+      "id": 11,
+      "lang": "en",
+      "title": "SMM Management",
+      "descr": "Social media platform management"
+    },
+    {
+      "id": 12,
+      "lang": "en",
+      "title": "Content & Copywriting",
+      "descr": "Content creation and copywriting"
+    },
+    {
+      "id": 13,
+      "lang": "en",
+      "title": "Meta & Google Ads",
+      "descr": "Targeted advertising campaigns"
+    },
+    {
+      "id": 14,
+      "lang": "en",
+      "title": "Branding & Creative",
+      "descr": "Visual content and creative solutions"
+    },
+    {
+      "id": 15,
+      "lang": "en",
+      "title": "Analytics & Reports",
+      "descr": "Data reporting and analytics"
+    }
+  ],
+  "smm_process": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "Գործընթաց",
+      "steps": [
+        {
+          "id": 1,
+          "number": "1",
+          "title": "Աուդիտ"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Ռազմավարություն"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Մեկնարկ"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "Օպտիմալացնել"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "Ընդլայնել"
+        }
+      ],
+      "offer_btn": "Քննարկել նախագիծը"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "subtitle": "Процесс",
+      "steps": [
+        {
+          "id": 1,
+          "number": "1",
+          "title": "Аудит"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Стратегия"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Запуск"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "Оптимизация"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "Расширять"
+        }
+      ],
+      "offer_btn": "Обсудить проект"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "Process",
+      "steps": [
+        {
+          "id": 1,
+          "number": "1",
+          "title": "Audit"
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "title": "Strategy"
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "title": "Launch"
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "title": "Optimize"
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "title": "Scale"
+        }
+      ],
+      "offer_btn": "Discuss the project"
+    }
+  ],
+  "business": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "Բիզնես խորհրդատվություն",
+      "title": "Ռազմավարություն բիզնեսների համար, որոնք ուզում են <span class='highlight'>աճել</span>"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "subtitle": "Business consulting",
+      "title": "Strategy for businesses that want to <span class='highlight'>grow</span>"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "subtitle": "Бизнес-консалтинг",
+      "title": "Стратегия для предприятий, которые хотят <span class='highlight'>расти</span>"
+    }
+  ],
+  "consultingServices": [
+    {
+      "id": 1,
+      "lang": "am",
+      "items": [
+        {
+          "title": "Սկսնակ բիզնեսներ",
+          "description": "Ստարտապից ճիշտ համակարգով"
+        },
+        {
+          "title": "Աճող ընկերություններ",
+          "description": "Մասշտաբային գործընթացներ"
+        },
+        {
+          "title": "Թիմեր՝ առանց համակարգի",
+          "description": "Կառուցվածքային մոտեցում"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "items": [
+        {
+          "title": "Startup Businesses",
+          "description": "Right system from startup"
+        },
+        {
+          "title": "Growing Companies",
+          "description": "Scalable processes"
+        },
+        {
+          "title": "Teams without system",
+          "description": "Structural approach"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "items": [
+        {
+          "title": "Стартап бизнесы",
+          "description": "Правильная система со стартапа"
+        },
+        {
+          "title": "Растущие компании",
+          "description": "Масштабируемые процессы"
+        },
+        {
+          "title": "Команды без системы",
+          "description": "Структурный подход"
+        }
+      ]
+    }
+  ],
+  "ourServices": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Մեր ծառայությունները",
+      "items": [
+        {
+          "name": "Բիզնես վերլուծություն"
+        },
+        {
+          "name": "KPI համակարգ"
+        },
+        {
+          "name": "Թվայնացում"
+        },
+        {
+          "name": "Ավտոմատացում"
+        }
+      ],
+      "consultation_btn": "Խորհրդատվություն"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "title": "Our Services",
+      "items": [
+        {
+          "name": "Business Analysis"
+        },
+        {
+          "name": "KPI System"
+        },
+        {
+          "name": "Digitization"
+        },
+        {
+          "name": "Automation"
+        }
+      ],
+      "consultation_btn": "Consultation"
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "title": "Наши услуги",
+      "items": [
+        {
+          "name": "Бизнес-анализ"
+        },
+        {
+          "name": "KPI система"
+        },
+        {
+          "name": "Оцифровка"
+        },
+        {
+          "name": "Автоматизация"
+        }
+      ],
+      "consultation_btn": "Консультация"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "lang": "am",
+      "subtitle": "REELS",
+      "title": "ԲԼՈԳ",
+      "descr": "Տեսանյութեր, թրենդներ և օգտակար խորհուրդներ։"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "subtitle": "REELS",
+      "title": "BLOG",
+      "descr": "Videos, trends and useful tips."
+    },
+    {
+      "id": 3,
+      "lang": "ru",
+      "subtitle": "REELS",
+      "title": "БЛОГ",
+      "descr": "Видео, тренды и полезные советы."
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "contentId": 1,
+      "lang": "am",
+      "title": "Ինչպես սկսել SMM-ից",
+      "descr": "Սոցիալական մեդիայի մարքեթինգի նոր մոտեցումներ",
+      "date": "2025-01-15",
+      "category": "Marketing",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/marketing1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing1.jpg"
+    },
+    {
+      "id": 2,
+      "contentId": 2,
+      "lang": "am",
+      "title": "UX/UI թրենդներ 2026",
+      "descr": "Դիզայնի նոր ուղղություններ և միտումներ",
+      "date": "2025-01-10",
+      "category": "Design",
+      "duration": "0:45",
+      "videoUrl": "/images/backend_images/videos/Design1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design1.jpg"
+    },
+    {
+      "id": 3,
+      "contentId": 3,
+      "lang": "am",
+      "title": "Python ավտոմատացում",
+      "descr": "Ծրագրավորման միջոցով աշխատանքի ավտոմատացում",
+      "date": "2025-01-05",
+      "category": "IT",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/IT1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it1.jpg"
+    },
+    {
+      "id": 4,
+      "contentId": 4,
+      "lang": "am",
+      "title": "Բրենդինգի հիմունքները",
+      "descr": "Բրենդի կառուցման հիմնական սկզբունքներ",
+      "date": "2024-12-20",
+      "category": "Marketing",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/marketing2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing2.jpg"
+    },
+    {
+      "id": 5,
+      "contentId": 5,
+      "lang": "am",
+      "title": "Google Ads օպտիմալացում",
+      "descr": "Գովազդային արշավների արդյունավետության բարձրացում",
+      "date": "2024-12-15",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing3.jpg"
+    },
+    {
+      "id": 6,
+      "contentId": 6,
+      "lang": "am",
+      "title": "React Native vs Flutter",
+      "descr": "Բջջային հավելվածների մշակման համեմատություն",
+      "date": "2024-12-10",
+      "category": "IT",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/IT2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it2.jpg"
+    },
+    {
+      "id": 7,
+      "contentId": 7,
+      "lang": "am",
+      "title": "Սոցիալական մեդիա",
+      "descr": "SMM-ի նոր մարտավարություններ",
+      "date": "2024-12-05",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing4.jpg"
+    },
+    {
+      "id": 8,
+      "contentId": 8,
+      "lang": "am",
+      "title": "Վեբ կայքի արտադրությունը",
+      "descr": "Կայքերի ստեղծման ժամանակակից մոտեցումներ",
+      "date": "2024-11-28",
+      "category": "Design",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/Design2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design2.jpg"
+    },
+    {
+      "id": 9,
+      "contentId": 9,
+      "lang": "am",
+      "title": "Մոտիվացիա թիմի համար",
+      "descr": "Թիմի կառավարման և մոտիվացիայի մեթոդներ",
+      "date": "2024-11-20",
+      "category": "Consulting",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/Consulting1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting1.jpg"
+    },
+    {
+      "id": 10,
+      "contentId": 10,
+      "lang": "am",
+      "title": "SEO օպտիմալացում 2025",
+      "descr": "Որոնողական համակարգերի օպտիմալացման նոր մեթոդներ",
+      "date": "2024.12.28",
+      "category": "Marketing",
+      "duration": "1:10",
+      "videoUrl": "/images/backend_images/videos/marketing5.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing5.jpg"
+    },
+    {
+      "id": 11,
+      "contentId": 11,
+      "lang": "am",
+      "title": "Figma-ի հիմունքները",
+      "descr": "Դիզայնի գործիքների յուրացում",
+      "date": "2024.12.25",
+      "category": "Design",
+      "duration": "0:55",
+      "videoUrl": "/images/backend_images/videos/Design3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design3.jpg"
+    },
+    {
+      "id": 12,
+      "contentId": 12,
+      "lang": "am",
+      "title": "JavaScript նորույթներ",
+      "descr": "JavaScript-ի վերջին թարմացումները",
+      "date": "2024.12.22",
+      "category": "IT",
+      "duration": "1:25",
+      "videoUrl": "/images/backend_images/videos/IT3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it3.jpg"
+    },
+    {
+      "id": 13,
+      "contentId": 13,
+      "lang": "am",
+      "title": "Բիզնես պլանավորում",
+      "descr": "Բիզնեսի ռազմավարական պլանավորում",
+      "date": "2024.12.18",
+      "category": "Consulting",
+      "duration": "1:45",
+      "videoUrl": "/images/backend_images/videos/Consulting2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting2.jpg"
+    },
+    {
+      "id": 14,
+      "contentId": 14,
+      "lang": "am",
+      "title": "Content Marketing",
+      "descr": "Բովանդակային մարքեթինգի ռազմավարություն",
+      "date": "2024.12.10",
+      "category": "Marketing",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/marketing6.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing6.jpg"
+    },
+    {
+      "id": 15,
+      "contentId": 15,
+      "lang": "am",
+      "title": "Adobe Photoshop",
+      "descr": "Photoshop-ի հիմնական գործիքներ",
+      "date": "2024.12.05",
+      "category": "Design",
+      "duration": "1:30",
+      "videoUrl": "/images/backend_images/videos/Design4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design4.jpg"
+    },
+    {
+      "id": 16,
+      "contentId": 16,
+      "lang": "am",
+      "title": "Node.js հիմունքներ",
+      "descr": "Backend ծրագրավորում Node.js-ով",
+      "date": "2024.11.30",
+      "category": "IT",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/IT4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it4.jpg"
+    },
+    {
+      "id": 17,
+      "contentId": 17,
+      "lang": "am",
+      "title": "Ֆինանսական վերլուծություն",
+      "descr": "Բիզնեսի ֆինանսական ցուցանիշներ",
+      "date": "2024.11.25",
+      "category": "Consulting",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/Consulting3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting3.jpg"
+    },
+    {
+      "id": 18,
+      "contentId": 18,
+      "lang": "en",
+      "title": "How to start with SMM",
+      "descr": "New approaches to social media marketing",
+      "date": "2025-01-15",
+      "category": "Marketing",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/marketing1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing1.jpg"
+    },
+    {
+      "id": 19,
+      "contentId": 19,
+      "lang": "en",
+      "title": "UX/UI Trends 2026",
+      "descr": "New directions and trends in design",
+      "date": "2025-01-10",
+      "category": "Design",
+      "duration": "0:45",
+      "videoUrl": "/images/backend_images/videos/Design1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design1.jpg"
+    },
+    {
+      "id": 20,
+      "contentId": 20,
+      "lang": "en",
+      "title": "Python Automation",
+      "descr": "Work automation through programming",
+      "date": "2025-01-05",
+      "category": "IT",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/IT1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it1.jpg"
+    },
+    {
+      "id": 21,
+      "contentId": 21,
+      "lang": "en",
+      "title": "Branding Fundamentals",
+      "descr": "Basic principles of brand building",
+      "date": "2024-12-20",
+      "category": "Marketing",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/marketing2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing2.jpg"
+    },
+    {
+      "id": 22,
+      "contentId": 22,
+      "lang": "en",
+      "title": "Google Ads Optimization",
+      "descr": "Improving advertising campaign effectiveness",
+      "date": "2024-12-15",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing3.jpg"
+    },
+    {
+      "id": 23,
+      "contentId": 23,
+      "lang": "en",
+      "title": "React Native vs Flutter",
+      "descr": "Comparison of mobile app development",
+      "date": "2024-12-10",
+      "category": "IT",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/IT2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it2.jpg"
+    },
+    {
+      "id": 24,
+      "contentId": 24,
+      "lang": "en",
+      "title": "Social Media",
+      "descr": "New SMM strategies",
+      "date": "2024-12-05",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing4.jpg"
+    },
+    {
+      "id": 25,
+      "contentId": 25,
+      "lang": "en",
+      "title": "Website Production",
+      "descr": "Modern approaches to website creation",
+      "date": "2024-11-28",
+      "category": "Design",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/Design2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design2.jpg"
+    },
+    {
+      "id": 26,
+      "contentId": 26,
+      "lang": "en",
+      "title": "Team Motivation",
+      "descr": "Team management and motivation methods",
+      "date": "2024-11-20",
+      "category": "Consulting",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/Consulting1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting1.jpg"
+    },
+    {
+      "id": 27,
+      "contentId": 27,
+      "lang": "en",
+      "title": "SEO Optimization 2025",
+      "descr": "New search engine optimization methods",
+      "date": "2024.12.28",
+      "category": "Marketing",
+      "duration": "1:10",
+      "videoUrl": "/images/backend_images/videos/marketing5.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing5.jpg"
+    },
+    {
+      "id": 28,
+      "contentId": 28,
+      "lang": "en",
+      "title": "Figma Basics",
+      "descr": "Mastering design tools",
+      "date": "2024.12.25",
+      "category": "Design",
+      "duration": "0:55",
+      "videoUrl": "/images/backend_images/videos/Design3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design3.jpg"
+    },
+    {
+      "id": 29,
+      "contentId": 29,
+      "lang": "en",
+      "title": "JavaScript Updates",
+      "descr": "Latest JavaScript features",
+      "date": "2024.12.22",
+      "category": "IT",
+      "duration": "1:25",
+      "videoUrl": "/images/backend_images/videos/IT3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it3.jpg"
+    },
+    {
+      "id": 30,
+      "contentId": 30,
+      "lang": "en",
+      "title": "Business Planning",
+      "descr": "Strategic business planning",
+      "date": "2024.12.18",
+      "category": "Consulting",
+      "duration": "1:45",
+      "videoUrl": "/images/backend_images/videos/Consulting2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting2.jpg"
+    },
+    {
+      "id": 31,
+      "contentId": 31,
+      "lang": "en",
+      "title": "Content Marketing",
+      "descr": "Content marketing strategy",
+      "date": "2024.12.10",
+      "category": "Marketing",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/marketing6.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing6.jpg"
+    },
+    {
+      "id": 32,
+      "contentId": 32,
+      "lang": "en",
+      "title": "Adobe Photoshop",
+      "descr": "Photoshop essential tools",
+      "date": "2024.12.05",
+      "category": "Design",
+      "duration": "1:30",
+      "videoUrl": "/images/backend_images/videos/Design4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design4.jpg"
+    },
+    {
+      "id": 33,
+      "contentId": 33,
+      "lang": "en",
+      "title": "Node.js Basics",
+      "descr": "Backend programming with Node.js",
+      "date": "2024.11.30",
+      "category": "IT",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/IT4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it4.jpg"
+    },
+    {
+      "id": 34,
+      "contentId": 34,
+      "lang": "en",
+      "title": "Financial Analysis",
+      "descr": "Business financial metrics",
+      "date": "2024.11.25",
+      "category": "Consulting",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/Consulting3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting3.jpg"
+    },
+    {
+      "id": 35,
+      "contentId": 35,
+      "lang": "ru",
+      "title": "Как начать SMM",
+      "descr": "Новые подходы к маркетингу в социальных сетях",
+      "date": "2025-01-15",
+      "category": "Marketing",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/marketing1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing1.jpg"
+    },
+    {
+      "id": 36,
+      "contentId": 36,
+      "lang": "ru",
+      "title": "UX/UI тренды 2026",
+      "descr": "Новые направления и тенденции в дизайне",
+      "date": "2025-01-10",
+      "category": "Design",
+      "duration": "0:45",
+      "videoUrl": "/images/backend_images/videos/Design1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design1.jpg"
+    },
+    {
+      "id": 37,
+      "contentId": 37,
+      "lang": "ru",
+      "title": "Автоматизация на Python",
+      "descr": "Автоматизация работы с помощью программирования",
+      "date": "2025-01-05",
+      "category": "IT",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/IT1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it1.jpg"
+    },
+    {
+      "id": 38,
+      "contentId": 38,
+      "lang": "ru",
+      "title": "Основы брендинга",
+      "descr": "Основные принципы построения бренда",
+      "date": "2024-12-20",
+      "category": "Marketing",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/marketing2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing2.jpg"
+    },
+    {
+      "id": 39,
+      "contentId": 39,
+      "lang": "ru",
+      "title": "Оптимизация Google Ads",
+      "descr": "Повышение эффективности рекламных кампаний",
+      "date": "2024-12-15",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing3.jpg"
+    },
+    {
+      "id": 40,
+      "contentId": 40,
+      "lang": "ru",
+      "title": "React Native vs Flutter",
+      "descr": "Сравнение разработки мобильных приложений",
+      "date": "2024-12-10",
+      "category": "IT",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/IT2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it2.jpg"
+    },
+    {
+      "id": 41,
+      "contentId": 41,
+      "lang": "ru",
+      "title": "Социальные медиа",
+      "descr": "Новые стратегии SMM",
+      "date": "2024-12-05",
+      "category": "Marketing",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/marketing4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing4.jpg"
+    },
+    {
+      "id": 42,
+      "contentId": 42,
+      "lang": "ru",
+      "title": "Создание веб-сайтов",
+      "descr": "Современные подходы к созданию сайтов",
+      "date": "2024-11-28",
+      "category": "Design",
+      "duration": "1:15",
+      "videoUrl": "/images/backend_images/videos/Design2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design2.jpg"
+    },
+    {
+      "id": 43,
+      "contentId": 43,
+      "lang": "ru",
+      "title": "Мотивация команды",
+      "descr": "Методы управления и мотивации команды",
+      "date": "2024-11-20",
+      "category": "Consulting",
+      "duration": "0:58",
+      "videoUrl": "/images/backend_images/videos/Consulting1.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting1.jpg"
+    },
+    {
+      "id": 44,
+      "contentId": 44,
+      "lang": "ru",
+      "title": "SEO оптимизация 2025",
+      "descr": "Новые методы поисковой оптимизации",
+      "date": "2024.12.28",
+      "category": "Marketing",
+      "duration": "1:10",
+      "videoUrl": "/images/backend_images/videos/marketing5.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing5.jpg"
+    },
+    {
+      "id": 45,
+      "contentId": 45,
+      "lang": "ru",
+      "title": "Основы Figma",
+      "descr": "Освоение инструментов дизайна",
+      "date": "2024.12.25",
+      "category": "Design",
+      "duration": "0:55",
+      "videoUrl": "/images/backend_images/videos/Design3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design3.jpg"
+    },
+    {
+      "id": 46,
+      "contentId": 46,
+      "lang": "ru",
+      "title": "Новинки JavaScript",
+      "descr": "Последние обновления JavaScript",
+      "date": "2024.12.22",
+      "category": "IT",
+      "duration": "1:25",
+      "videoUrl": "/images/backend_images/videos/IT3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it3.jpg"
+    },
+    {
+      "id": 47,
+      "contentId": 47,
+      "lang": "ru",
+      "title": "Бизнес-планирование",
+      "descr": "Стратегическое планирование бизнеса",
+      "date": "2024.12.18",
+      "category": "Consulting",
+      "duration": "1:45",
+      "videoUrl": "/images/backend_images/videos/Consulting2.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting2.jpg"
+    },
+    {
+      "id": 48,
+      "contentId": 48,
+      "lang": "ru",
+      "title": "Контент-маркетинг",
+      "descr": "Стратегия контент-маркетинга",
+      "date": "2024.12.10",
+      "category": "Marketing",
+      "duration": "1:05",
+      "videoUrl": "/images/backend_images/videos/marketing6.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/marketing6.jpg"
+    },
+    {
+      "id": 49,
+      "contentId": 49,
+      "lang": "ru",
+      "title": "Adobe Photoshop",
+      "descr": "Основные инструменты Photoshop",
+      "date": "2024.12.05",
+      "category": "Design",
+      "duration": "1:30",
+      "videoUrl": "/images/backend_images/videos/Design4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/design4.jpg"
+    },
+    {
+      "id": 50,
+      "contentId": 50,
+      "lang": "ru",
+      "title": "Основы Node.js",
+      "descr": "Backend программирование на Node.js",
+      "date": "2024.11.30",
+      "category": "IT",
+      "duration": "1:20",
+      "videoUrl": "/images/backend_images/videos/IT4.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/it4.jpg"
+    },
+    {
+      "id": 51,
+      "contentId": 51,
+      "lang": "ru",
+      "title": "Финансовый анализ",
+      "descr": "Финансовые показатели бизнеса",
+      "date": "2024.11.25",
+      "category": "Consulting",
+      "duration": "0:52",
+      "videoUrl": "/images/backend_images/videos/Consulting3.mp4",
+      "thumbnail": "/images/backend_images/thumbnails/consulting3.jpg"
+    }
+  ],
+  "footer_intros": [
+    {
+      "id": 1,
+      "lang": "am",
+      "descr": "Morpho — թվային լուծումներ բիզնեսի աճի համար։ Մարքեթինգ, IT, դիզայն և կրթություն մեկ էկոհամակարգում։"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "descr": "Morpho — цифровые решения для роста вашего бизнеса. Маркетинг, IT, дизайн и образование в одной экосистеме."
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "descr": "Morpho — digital solutions for your business growth. Marketing, IT, design, and education in one ecosystem."
+    }
+  ],
+  "footer_links_main": [
+    {
+      "id": 1,
+      "lang": "am",
+      "title": "Գլխավոր",
+      "route": "/"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Մեր մասին",
+      "route": "/about"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "title": "Ծառայություններ",
+      "route": "/services"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "title": "Բլոգ",
+      "route": "/blog"
+    },
+    {
+      "id": 5,
+      "lang": "ru",
+      "title": "Главная",
+      "route": "/"
+    },
+    {
+      "id": 6,
+      "lang": "ru",
+      "title": "О нас",
+      "route": "/about"
+    },
+    {
+      "id": 7,
+      "lang": "ru",
+      "title": "Услуги",
+      "route": "/services"
+    },
+    {
+      "id": 8,
+      "lang": "ru",
+      "title": "Блог",
+      "route": "/blog"
+    },
+    {
+      "id": 9,
+      "lang": "en",
+      "title": "Home",
+      "route": "/"
+    },
+    {
+      "id": 10,
+      "lang": "en",
+      "title": "About Us",
+      "route": "/about"
+    },
+    {
+      "id": 11,
+      "lang": "en",
+      "title": "Services",
+      "route": "/services"
+    },
+    {
+      "id": 12,
+      "lang": "en",
+      "title": "Blog",
+      "route": "/blog"
+    }
+  ],
+  "footer_links_services": [
+    {
+      "id": 13,
+      "lang": "am",
+      "title": "SMM/Marketing",
+      "route": "/services/smm-marketing"
+    },
+    {
+      "id": 14,
+      "lang": "am",
+      "title": "Բիզնես խորհրդատվություն",
+      "route": "/services/business-consulting"
+    },
+    {
+      "id": 15,
+      "lang": "am",
+      "title": "Դիզայն",
+      "route": "/services/design"
+    },
+    {
+      "id": 16,
+      "lang": "am",
+      "title": "IT ծառայություններ",
+      "route": "/services/it"
+    },
+    {
+      "id": 17,
+      "lang": "am",
+      "title": "Morpho Academy",
+      "route": "/academy"
+    },
+    {
+      "id": 18,
+      "lang": "ru",
+      "title": "SMM/Маркетинг",
+      "route": "/services/smm-marketing"
+    },
+    {
+      "id": 19,
+      "lang": "ru",
+      "title": "Бизнес-консалтинг",
+      "route": "/services/business-consulting"
+    },
+    {
+      "id": 20,
+      "lang": "ru",
+      "title": "Дизайн",
+      "route": "/services/design"
+    },
+    {
+      "id": 21,
+      "lang": "ru",
+      "title": "IT услуги",
+      "route": "/services/it"
+    },
+    {
+      "id": 22,
+      "lang": "ru",
+      "title": "Morpho Academy",
+      "route": "/academy"
+    },
+    {
+      "id": 23,
+      "lang": "en",
+      "title": "SMM/Marketing",
+      "route": "/services/smm-marketing"
+    },
+    {
+      "id": 24,
+      "lang": "en",
+      "title": "Business Consulting",
+      "route": "/services/business-consulting"
+    },
+    {
+      "id": 25,
+      "lang": "en",
+      "title": "Design",
+      "route": "/services/design"
+    },
+    {
+      "id": 26,
+      "lang": "en",
+      "title": "IT Services",
+      "route": "/services/it"
+    },
+    {
+      "id": 27,
+      "lang": "en",
+      "title": "Morpho Academy",
+      "route": "/academy"
+    }
+  ],
+  "footer_contacts": [
+    {
+      "id": 1,
+      "lang": "am",
+      "email_label": "info@morpho.am",
+      "telephone_label": "+374 00 000 000",
+      "address_label": "Երևան, Հայաստան"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "email_label": "info@morpho.am",
+      "telephone_label": "+374 00 000 000",
+      "address_label": "Ереван, Армения"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "email_label": "info@morpho.am",
+      "telephone_label": "+374 00 000 000",
+      "address_label": "Yerevan, Armenia"
+    }
+  ],
+  "footer_credits": {
+    "text": "© 0000 Morpho. All rights reserved."
+  },
+  "footer_social_links": [
+    {
+      "id": 1,
+      "image": "/images/backend_images/footer/facebook.svg",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "image": "/images/backend_images/footer/instagram.svg",
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "image": "/images/backend_images/footer/linkedin.svg",
+      "url": "#"
+    }
+  ]
+}

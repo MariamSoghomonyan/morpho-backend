@@ -1,0 +1,8 @@
+model iTIntros {
+  id        String   @id @default(uuid())
+  lang      String
+  subtitle  String
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

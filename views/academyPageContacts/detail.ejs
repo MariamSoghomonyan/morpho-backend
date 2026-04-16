@@ -1,0 +1,57 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>" />
+
+    <label>Title</label>
+    <input type="text" name="title" value="<%= data.title %>" />
+
+    <label>Name</label>
+    <input type="text" name="name_label" value="<%= data.nameLabel %>" />
+
+    <label>Email</label>
+    <input type="text" name="email_label" value="<%= data.emailLabel %>" />
+
+    <label>Phone</label>
+    <input type="text" name="phone_label" value="<%= data.phoneLabel %>" />
+
+    <label>Course</label>
+    <input type="text" name="course_label" value="<%= data.courseLabel %>" />
+
+    <label>Message</label>
+    <input type="text" name="message_label" value="<%= data.messageLabel %>" />
+
+    <label>Submit button</label>
+    <input type="text" name="submit_btn" value="<%= data.submitBtn %>" />
+
+    <h2>COURSES</h2>
+
+    <div id="submenu-container">
+      <% data.courses.forEach(c => { %>
+        <div class="submenu-row">
+
+          <div class="submenu-fields">
+            <input type="text" name="academy_course_lang[]" value="<%= c.lang %>" />
+            <input type="text" name="academy_course_title[]" value="<%= c.title %>" />
+          </div>
+
+          <div class="submenu-actions">
+            <button type="button" class="remove-btn">✖</button>
+          </div>
+
+        </div>
+      <% }) %>
+    </div>
+
+    <button type="button" id="add-submenu" class="submit submenu">
+      Add course
+    </button>
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>
+
+<script src="/js/academyCourses.js"></script>

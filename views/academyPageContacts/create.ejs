@@ -1,0 +1,41 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/add" method="post">
+    <label>Language<span>*</span></label>
+    <input type="text" name="lang" required />
+
+    <label>Title<span>*</span></label>
+    <input type="text" name="title" required />
+
+    <label>Name<span>*</span></label>
+    <input type="text" name="name_label" />
+
+    <label>Email<span>*</span></label>
+    <input type="text" name="email_label" />
+
+    <label>Phone<span>*</span></label>
+    <input type="text" name="phone_label" />
+
+    <label>Course<span>*</span></label>
+    <input type="text" name="course_label" />
+
+    <label>Message<span>*</span></label>
+    <input type="text" name="message_label" />
+
+    <label>Submit button<span>*</span></label>
+    <input type="text" name="submit_btn" />
+
+    <h2>COURSES</h2>
+
+    <div id="submenu-container"></div>
+
+    <button type="button" id="add-submenu" class="submit submenu">
+      Add course
+    </button>
+
+    <button type="submit" class="submit">Create</button>
+  </form>
+</div>
+
+<script src="/js/academyCourses.js"></script>

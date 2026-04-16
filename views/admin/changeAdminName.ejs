@@ -1,0 +1,24 @@
+<div class="admin-action">
+    <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+    <% if (error) { %>
+        <p class="error">❌ <%= error %> </p>
+    <% } %>
+
+    <% if (success) { %>
+        <p class="success">✅ <%= success %> </p>
+    <% } %>
+
+    <form action="/admin/change-admin-name" method="post">
+        <label for="adminName">Admin Name</label>
+
+        <input 
+          type="text" 
+          required
+          name="adminName" 
+          id="adminName" 
+          value="<%= user.username %>" 
+        >
+        <button type="submit">Change Admin Name</button>
+    </form>
+</div>

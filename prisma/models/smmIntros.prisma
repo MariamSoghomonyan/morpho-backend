@@ -1,0 +1,10 @@
+model SmmIntros {
+    id         String   @id @default(uuid())
+    lang       String
+    subtitle   String
+    title      String
+    descr      String
+    advice_btn String
+    createdAt  DateTime @default(now())
+    updatedAt  DateTime @updatedAt
+}

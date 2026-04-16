@@ -1,0 +1,166 @@
+.action h1 {
+  color: var(--text-color-1);
+}
+
+.action form {
+  margin: 25px 0;
+}
+
+.action form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0.5px;
+  display: block;
+  color: var(--text-color-1);
+}
+
+.action form label span {
+  color: red;
+}
+
+.action form .lang-selector {
+  display: block;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px 4px;
+  font-size: 16px;
+  width: 500px;
+}
+
+.action form input,
+.action form textarea {
+  display: block;
+  border: 1px solid;
+  padding: 5px 8px;
+  width: 500px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.action form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.action form input[type="file"],
+.action form input[type="image"] {
+  border: none;
+  padding: 0;
+}
+
+.action form .image-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.action form .image-box .image-preview {
+  margin-bottom: 19px;
+}
+
+.action form .image-preview {
+  display: none;
+  margin: 10px 0;
+  width: 250px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #b5b6b6;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.action form .image-preview.active {
+  display: block;
+}
+
+.action form button.submit {
+  position: fixed;
+  top: 85px;
+  left: 930px;
+  font-size: 17px;
+  border: 2px solid var(--primary);
+  background: var(--primary);
+  color: #fff;
+  padding: 7px 17px;
+  border-radius: 6px;
+  letter-spacing: 0.7px;
+  -webkit-text-stroke: 0.1px;
+  cursor: pointer;
+}
+
+.action form button.submenu {
+  margin-left: 105px;
+}
+
+.submenu-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.submenu-fields {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.submenu-fields input {
+  flex: 1;
+  padding: 5px 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+.submenu-actions {
+  display: flex;
+  align-items: center;
+}
+
+.remove-btn {
+  padding: 7px 17px;
+  border: 2px solid var(--primary);
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.2s;
+  letter-spacing: 0.7px;
+  -webkit-text-stroke: 0.1px;
+  margin-bottom: 10px;
+}
+
+.submenu-row {
+  flex-wrap: wrap;
+}
+
+.items-box {
+  width: 100%;
+  order: 2;
+  margin-top: 8px;
+}
+
+.items-box div {
+  display: flex;
+  gap: 10px;
+}
+
+.items-box input {
+  flex: 1;
+  margin: 0;
+}
+
+.submit.submenu.add-item {
+  margin-left: 211px;
+}
+
+.current {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+model SmmProcess {
+  id         String @id @default(uuid())
+  lang       String
+  subtitle   String
+  offer_btn  String
+
+  steps      SmmStep[]
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model SmmStep {
+  id          String @id @default(uuid())
+  number      String
+  title       String
+  order       Int @default(0)
+
+  smmProcessId String
+  smmProcess   SmmProcess @relation(fields: [smmProcessId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

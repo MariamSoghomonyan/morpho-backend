@@ -1,0 +1,56 @@
+<form id="bulk-delete-form" action="/admin/<%= activeRoute %>/bulk-delete" method="post">
+
+  <input type="hidden" id="selected-ids" name="ids">
+
+  <div class="head">
+    <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+    <div class="right-side">
+      <button type="submit" id="delete-btn" class="create-btn" style="display:none;">
+        Delete selected
+      </button>
+
+      <a href="/admin/<%= activeRoute %>/create" class="create-btn">
+        Create new <%= title.toLowerCase() %>
+      </a>
+    </div>
+  </div>
+
+  <% if (data.length) { %>
+  <div class="table-wrapper">
+    <table>
+
+      <tr>
+        <th><input type="checkbox" id="select-all"></th>
+        <th>N</th>
+        <th>Language</th>
+        <th>Title</th>
+        <th>Actions</th>
+      </tr>
+
+      <% data.forEach((elem, index) => { %>
+      <tr>
+        <td>
+          <input type="checkbox" class="row-checkbox" value="<%= elem.id %>">
+        </td>
+
+        <td><%= index + 1 %></td>
+        <td><%= elem.lang %></td>
+        <td><%= elem.title %></td>
+
+        <td>
+          <a href="/admin/<%= activeRoute %>/<%= elem.id %>" class="action">Detail</a>
+                          <a href="/admin/<%= activeRoute %>/<%= elem.id %>/delete" class="action">Remove</a>
+        </td>
+      </tr>
+      <% }) %>
+
+    </table>
+  </div>
+  <% } else { %>
+    <p class="no-data-text">No data yet.</p>
+  <% } %>
+
+</form>
+
+<script src="/js/bulkDelete.js"></script>

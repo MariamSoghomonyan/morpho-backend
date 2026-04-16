@@ -1,0 +1,16 @@
+model HomePageService {
+  id         String   @id @default(uuid())
+  slug       String
+  lang       String
+  image      String
+  tabName    String
+  title      String
+  descr      String
+  buttonText String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([slug])
+  @@index([lang])
+  @@unique([slug, lang])
+}

@@ -1,0 +1,23 @@
+<div class="action">
+  <h1><%= title.charAt(0).toUpperCase() + title.slice(1).toLowerCase() %></h1>
+
+  <form action="/admin/<%= activeRoute %>/edit/<%= data.id %>" method="post">
+    <label>Language</label>
+    <input type="text" name="lang" value="<%= data.lang %>" />
+
+    <label>Email</label>
+    <input type="text" name="email_label" value="<%= data.email_label %>" />
+
+    <label>Telephone</label>
+    <input
+      type="text"
+      name="telephone_label"
+      value="<%= data.telephone_label %>"
+    />
+
+    <label>Address</label>
+    <input type="text" name="address_label" value="<%= data.address_label %>" />
+
+    <button type="submit" class="submit">Update</button>
+  </form>
+</div>
